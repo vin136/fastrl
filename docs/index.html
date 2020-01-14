@@ -41,6 +41,38 @@ summary: "A Concise introduction to key ideas in RL."
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The following notes is targeted at people interested in Reinforcement Learning looking to get upto speed  without sacfricing on rigor.The necessary math is tackled but with computation first approach.Basic ability to write and understand simple programs and high school level math is all that is required.For readers looking to understand the latest developments in this field refer amazing <a href="https://spinningup.openai.com/en/latest/">Spinning Up RL</a></p>
+<h3 id="While-reading-the-text-reader-should-constantly-be-asking-two-questions-:">While reading the text reader should constantly be asking two questions :<a class="anchor-link" href="#While-reading-the-text-reader-should-constantly-be-asking-two-questions-:">&#182;</a></h3><p>How can I implement this ? :</p>
+<p><code>Brings practical computational problems into the picture and ensures actual understanding.</code></p>
+<p>How can I be sure what I'm doing will work(If implemented correctly) ? :</p>
+<p><code>As we will see RL needs lot of tricks and hacks to make it work. Whenever some notation and math help us in choosing sensible things,we should do it. This is where the rigor part of this notes comes into picture.This will be essential in removing the magic out of many **SOTA** algorithms in RL.</code></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's start with humans learning from experiance.Say we are trying to learn to bicycle. We are driven by a goal to <code>stay balanced and pedal</code>.Along the way we fall.Now we need to start again.Somewhere in the gap between each iteration,we are learning and improving.Let's hash out the features of this process,if we are to model this :</p>
+<ol>
+<li><strong>Past actions influence future output</strong>: There is no immediate feedback.Each micro-action(exerting more pressure on the pedal,..) along the way either leads to falling-off balance or keep moving.</li>
+</ol>
+<p><code>Computational Problem</code> : How to assign credit to actions when they are not temporally connected ?</p>
+<ol>
+<li><strong>Outcomes might not be deterministic</strong>: There are features of the environment(road,weather etc) that we do not fully understand that can effect outcome of the action.</li>
+</ol>
+<p><code>Computational Problem</code>: How to make inference about the dynamics of a system when i</p>
+
+</div>
+</div>
+</div>
 </div>
  
 
