@@ -13,11 +13,17 @@ entries:
       title: fastrl
       url: /core
     - output: web,pdf
+      title: Q-learning Algorithms
+      url: '/rl.qlearning '
+    - output: web,pdf
+      title: Actor Critic Algorithms
+      url: /rl.actorcritic
+    - output: web,pdf
       title: Auto-regressive Models
-      url: /tutorial.autoregressivemodels
+      url: /unsupervisedlearning.autoregressivemodels
     - output: web,pdf
       title: Flows
-      url: /tutorial.flows
+      url: /unsupervisedlearning.flows
     output: web
     title: fastrl
   output: web
