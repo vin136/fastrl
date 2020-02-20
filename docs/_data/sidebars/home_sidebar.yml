@@ -11,7 +11,13 @@ entries:
       url: /
     - output: web,pdf
       title: fastrl
+      url: /core
+    - output: web,pdf
+      title: Auto-regressive Models
       url: /tutorial.autoregressive_models
+    - output: web,pdf
+      title: Title
+      url: /tutorial.flows
     output: web
     title: fastrl
   output: web

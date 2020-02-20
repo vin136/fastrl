@@ -1,6 +1,8 @@
 {
   "fastrl": {
     "Overview": "/",
-    "fastrl": "/tutorial.autoregressive_models"
+    "fastrl": "/core",
+    "Auto-regressive Models": "/tutorial.autoregressive_models",
+    "Title": "/tutorial.flows"
   }
 }
