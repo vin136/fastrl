@@ -11,7 +11,7 @@ entries:
       url: /
     - output: web,pdf
       title: fastrl
-      url: /core
+      url: /tutorial.autoregressive_models
     output: web
     title: fastrl
   output: web
