@@ -14,9 +14,9 @@ entries:
       url: /core
     - output: web,pdf
       title: Auto-regressive Models
-      url: /tutorial.autoregressive_models
+      url: /tutorial.autoregressivemodels
     - output: web,pdf
-      title: Title
+      title: Flows
       url: /tutorial.flows
     output: web
     title: fastrl
