@@ -14,7 +14,7 @@ entries:
       url: /core
     - output: web,pdf
       title: Q-learning Algorithms
-      url: '/rl.qlearning '
+      url: /rl.qlearning
     - output: web,pdf
       title: Actor Critic Algorithms
       url: /rl.actorcritic

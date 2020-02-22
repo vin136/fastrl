@@ -2,7 +2,7 @@
   "fastrl": {
     "Overview": "/",
     "fastrl": "/core",
-    "Q-learning Algorithms": "/rl.qlearning ",
+    "Q-learning Algorithms": "/rl.qlearning",
     "Actor Critic Algorithms": "/rl.actorcritic",
     "Auto-regressive Models": "/unsupervisedlearning.autoregressivemodels",
     "Flows": "/unsupervisedlearning.flows"
